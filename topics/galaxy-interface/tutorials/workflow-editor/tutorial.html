@@ -134,7 +134,7 @@
                 العربية
                 </a>
                 
-                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fgalaxy-interface%2Ftutorials%2Fworkflow-editor%2Ftutorial.html&edit-text=&act=url" title="">
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html&edit-text=&act=url" title="">
                 And more!
                 </a>
             </div>
@@ -196,7 +196,7 @@
 
                     <!-- Search bar-->
                     <li class="nav-item">
-                      <div id="navbarSupportedContent">
+                      <div id="navbarSupportedContent" role="search">
                         <!-- Search form -->
                         <form class="form-inline mr-auto" method="GET" action="/training-material/search">
                           <i class="fas fa-search nav-link" aria-hidden="true"></i>
@@ -276,7 +276,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "2021-06-28 11:08:35 +0000",
+  "dateModified": "1970-01-01 00:33:41 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Creating, Editing and Importing Galaxy Workflows",
   "interactivityType": "mixed",
@@ -350,15 +350,21 @@
     <h1 data-toc-skip>Creating, Editing and Importing Galaxy Workflows</h1>
     
 
-    <div class="contributors-line">Authors: 
 
- <a href="/training-material/hall-of-fame/mvdbeek/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mvdbeek" alt="Avatar">Marius van den Beek</a>
+    <div class="contributors-line">Authors: 
+<a href="/training-material/hall-of-fame/mvdbeek/" class="contributor-badge contributor-mvdbeek"><img src="https://avatars.githubusercontent.com/mvdbeek?s=27" alt="Avatar">Marius van den Beek</a>
+
+
+<a href="https://training.galaxyproject.org/training-material/topics/contributing/" class="contributor-badge contributor-newcontributors"><i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span>  Add Contributions!</a>
 
 </div>
 
+
     <blockquote class="overview">
         <h3>Overview</h3>
+        
         <img alt="Creative Commons License" class="float-right" style="border-width:0; display: inline-block; margin:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" aria-hidden="true" />
+        
         <strong><i class="far fa-question-circle" aria-hidden="true"></i> Questions:</strong>
         <ul>
         
@@ -436,6 +442,8 @@
             
 
             
+
+            
             
             
 
@@ -473,8 +481,6 @@
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
-        
-    
         
     
         
@@ -574,8 +580,6 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://ml.usegalaxy.eu/" title="Machine Learning Workbench">
             Machine Learning Workbench
         </a>
@@ -642,6 +646,10 @@
         
     
         
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
+        
     
         
         <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
@@ -683,6 +691,12 @@
         </a>
         
     
+        
+        <a class="dropdown-item" href="https://covid19.usegalaxy.fr/" title="covid19.UseGalaxy.fr">
+            covid19.UseGalaxy.fr
+        </a>
+        
+    
     </ul>
 
 
@@ -693,7 +707,9 @@
 
         <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jun 28, 2021 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
+            
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
+            
             <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">The GTN Framework is licensed under MIT</a>
         </div>
     </blockquote>
@@ -705,6 +721,8 @@
                 <nav id="toc" data-toggle="toc" class="sticky-top" aria-label="Table of Contents"></nav>
             </div>
             <div class="col-sm-10">
+                
+
                 <h1 class="no_toc" id="introduction">Introduction</h1>
 
 <p>Workflows are a powerful feature in <span class="notranslate">Galaxy</span> that allow you to link multiple steps of complex analysis.
@@ -747,7 +765,7 @@ currently <span class="notranslate">workflow</span> inputs, tools, and workflows
     <li>Enter a Name and Annotation for your <span class="notranslate">workflow</span> and click <strong>Save</strong></li>
     <li>The <span class="notranslate">Workflow</span> Editor will open with a new, empty <span class="notranslate">workflow</span> loaded</li>
   </ul>
-  <figure id="figure-1"><img src="../../images/workflow_editor_new_workflow.png" alt="A new empty workflow" loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 1:</span> A new empty <span class="notranslate">workflow</span></figcaption></figure>
+  <figure id="figure-1"><img src="../../images/workflow_editor_new_workflow.png" alt="A new empty workflow. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 1:</span> A new empty <span class="notranslate">workflow</span></figcaption></figure>
 </blockquote>
 
 <p>On the left hand side of the Editor you see the available tools in the tool
@@ -812,7 +830,7 @@ for a detailed description of how to use these.</p>
     </li>
     <li>Click on the round blue symbol of the input dataset and drag the connection to the highlighted round green tool input</li>
   </ol>
-  <figure id="figure-2"><img src="../../images/workflow_editor_connect_inputs.png" alt="Connecting an input" loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 2:</span> Connecting outputs and inputs</figcaption></figure>
+  <figure id="figure-2"><img src="../../images/workflow_editor_connect_inputs.png" alt="Connecting an input. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 2:</span> Connecting outputs and inputs</figcaption></figure>
 
 </blockquote>
 
