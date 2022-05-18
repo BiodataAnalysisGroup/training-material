@@ -20546,5 +20546,16 @@
     "topic": "Introduction to Galaxy Analyses",
     "month": "2022-05",
     "date": "2022-05-18"
+  },
+  {
+    "": "2711",
+    "note": "5",
+    "pro": "The explanations",
+    "con": null,
+    "anonymous": null,
+    "tutorial": "Visualization of RNA-Seq results with Volcano Plot",
+    "topic": "Transcriptomics",
+    "month": "2022-05",
+    "date": "2022-05-18"
   }
 ]
