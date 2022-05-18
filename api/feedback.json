@@ -20469,5 +20469,82 @@
     "topic": "Sequence analysis",
     "month": "2022-05",
     "date": "2022-05-10"
+  },
+  {
+    "": "2704",
+    "note": "4",
+    "pro": "Easy to understand",
+    "con": "Pls provide dataset so that we can practice alongside",
+    "anonymous": null,
+    "tutorial": "Introduction to Machine Learning using R",
+    "topic": "Statistics and machine learning",
+    "month": "2022-05",
+    "date": "2022-05-11"
+  },
+  {
+    "": "2705",
+    "note": "1",
+    "pro": null,
+    "con": null,
+    "anonymous": null,
+    "tutorial": "Proteogenomics 3: Novel peptide analysis",
+    "topic": "Proteomics",
+    "month": "2022-05",
+    "date": "2022-05-13"
+  },
+  {
+    "": "2706",
+    "note": "4",
+    "pro": null,
+    "con": null,
+    "anonymous": null,
+    "tutorial": "How to reproduce published Galaxy analyses",
+    "topic": "Introduction to Galaxy Analyses",
+    "month": "2022-05",
+    "date": "2022-05-15"
+  },
+  {
+    "": "2707",
+    "note": "5",
+    "pro": "yes",
+    "con": null,
+    "anonymous": null,
+    "tutorial": "Mapping",
+    "topic": "Sequence analysis",
+    "month": "2022-05",
+    "date": "2022-05-15"
+  },
+  {
+    "": "2708",
+    "note": "5",
+    "pro": "I like the clarity of the pictures used in describing the different steps",
+    "con": "There is nothing needed to be improved. The tutorial is excellent",
+    "anonymous": null,
+    "tutorial": "A short introduction to Galaxy",
+    "topic": "Introduction to Galaxy Analyses",
+    "month": "2022-05",
+    "date": "2022-05-16"
+  },
+  {
+    "": "2709",
+    "note": "5",
+    "pro": "Simplicity of explaining complicate issue (-;",
+    "con": "n.a.",
+    "anonymous": null,
+    "tutorial": "Analyses of metagenomics data - The global picture",
+    "topic": "Metagenomics",
+    "month": "2022-05",
+    "date": "2022-05-17"
+  },
+  {
+    "": "2710",
+    "note": "4",
+    "pro": "Easy to follow. Helpful examples. ",
+    "con": null,
+    "anonymous": null,
+    "tutorial": "Galaxy 101",
+    "topic": "Introduction to Galaxy Analyses",
+    "month": "2022-05",
+    "date": "2022-05-18"
   }
 ]
