@@ -68,10 +68,7 @@
   "notebook": {
     "language": "bash"
   },
-  "last_modified_at": "2022-06-15T12:50:22+00:00",
-  "tags": [
-    "jupyter-notebook"
-  ],
+  "last_modified_at": "15-Jun-22",
   "url": "/topics/data-science/tutorials/bash-variant-calling/tutorial.html",
   "topic_name": "data-science",
   "tutorial_name": "bash-variant-calling"
