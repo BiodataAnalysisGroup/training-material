@@ -9,7 +9,7 @@
     "Describe the types of data formats encountered during variant calling.",
     "Use command line tools to perform variant calling."
   ],
-  "time_estimation": "50Μ",
+  "time_estimation": "50M",
   "key_points": [
     "Bioinformatic command line tools are collections of commands that can be used to carry out bioinformatic analyses.",
     "To use most powerful bioinformatic tools, you will need to use the command line.",
@@ -68,10 +68,7 @@
       "url": "https://training.galaxyproject.org/training-material/api/contributors/carpentries.json"
     }
   ],
-  "notebook": {
-    "language": "bash"
-  },
-  "last_modified_at": "15-Jun-22",
+  "last_modified_at": "06-Jul-22",
   "url": "/topics/data-science/tutorials/bash-variant-calling/tutorial.html",
   "topic_name": "data-science",
   "tutorial_name": "bash-variant-calling"
