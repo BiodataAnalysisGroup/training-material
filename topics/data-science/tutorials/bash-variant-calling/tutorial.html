@@ -22,7 +22,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="Variant Calling Workflow" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="1970-01-01 00:00:06 +0000" />
+<meta name="DC.date" content="1970-01-01 00:00:07 +0000" />
 <meta name="DC.creator" content="Sofoklis Keisaris" />
 <meta name="DC.creator" content="Fotis E. Psomopoulos" />
 <meta name="DC.creator" content="Saskia Hiltemann" />
@@ -276,7 +276,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:00:06 +0000",
+  "dateModified": "1970-01-01 00:00:07 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Variant Calling Workflow",
   "interactivityType": "mixed",
@@ -650,7 +650,7 @@
 
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jul 6, 2022 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jul 7, 2022 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -1329,26 +1329,16 @@ in the gene <em>mutL</em>, which controls <span class="notranslate">DNA</span> m
 
   <p><a href="http://www.broadinstitute.org/igv/">IGV</a> is a stand-alone browser, which has the advantage of being installed locally and providing fast access. Web-based genome browsers, like <a href="http://www.ensembl.org/index.html">Ensembl</a> or the <a href="https://genome.ucsc.edu/">UCSC browser</a>, are slower, but provide more functionality. They not only allow for more polished and flexible visualization, but also provide easy access to a wealth of annotations and exte<span class="notranslate">rna</span>l data sources. This makes it straightforward to relate your data with information about repeat regions, known genes, epigenetic features or areas of cross-species conservation, to name just a few.</p>
 
-  <p>In order to use IGV, we will need to transfer some files to our local machine. We know how to do this with <code class="language-plaintext highlighter-rouge">scp</code>.
-Open a new tab in your terminal window and create a new folder. We will put this folder on our Desktop for
-demonstration purposes, but in general you should avoide proliferating folders and files on your Desktop and
-instead organize files within a directory structure like we have been using in our <code class="language-plaintext highlighter-rouge">dc_workshop</code> directory.</p>
+  <p>In order to use IGV, we will need to download the files, that we are going to use as input, to our local machine. We can do this easily via the <span class="notranslate">Galaxy</span> RStudio interface, in which we were working all along. 
+We will work on the lower right panel in the RStudio, on the “Files” tab, wehre we simply need to select the desired files by checking the boxes left to their name.
+Then, we click on the option “Export”, which we can find on the said panel in the “More” dropdown tab. After assigning a name for the file to be downloaded we hit “Download” and our selection are localy downloaded. 
+The files we are going to use are listed below:</p>
 
-  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir</span> ~/Desktop/files_for_igv
-<span class="nv">$ </span><span class="nb">cd</span> ~/Desktop/files_for_igv
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/dc_workshop/results/bam/SRR2584866.aligned.sorted.bam 
+~/dc_workshop/results/bam/SRR2584866.aligned.sorted.bam.bai 
+~/dc_workshop/data/ref_genome/ecoli_rel606.fasta 
+~/dc_workshop/results/vcf/SRR2584866_final_variants.vcf 
 </code></pre></div>  </div>
-
-  <p>Now we will transfer our files to that new directory. Remember to replace the text between the <code class="language-plaintext highlighter-rouge">@</code> and the <code class="language-plaintext highlighter-rouge">:</code>
-with your AWS instance number. The commands to <code class="language-plaintext highlighter-rouge">scp</code> always go in the terminal window that is connected to your
-local computer (not your AWS instance).</p>
-
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ scp dcuser@ec2-34-203-203-131.compute-1.amazonaws.com:~/dc_workshop/results/bam/SRR2584866.aligned.sorted.bam ~/Desktop/files_for_igv
-$ scp dcuser@ec2-34-203-203-131.compute-1.amazonaws.com:~/dc_workshop/results/bam/SRR2584866.aligned.sorted.bam.bai ~/Desktop/files_for_igv
-$ scp dcuser@ec2-34-203-203-131.compute-1.amazonaws.com:~/dc_workshop/data/ref_genome/ecoli_rel606.fasta ~/Desktop/files_for_igv
-$ scp dcuser@ec2-34-203-203-131.compute-1.amazonaws.com:~/dc_workshop/results/vcf/SRR2584866_final_variants.vcf ~/Desktop/files_for_igv
-</code></pre></div>  </div>
-
-  <p>You will need to type the password for your AWS instance each time you call <code class="language-plaintext highlighter-rouge">scp</code>.</p>
 
   <p>Next, we need to open the IGV software. If you have not done so already, you can download IGV from the <a href="https://www.broadinstitute.org/software/igv/download">Broad Institute’s software page</a>, double-click the <code class="language-plaintext highlighter-rouge">.zip</code> file
 to unzip it, and then drag the program into your Applications folder.</p>
@@ -1472,7 +1462,7 @@ author = "Sofoklis Keisaris and Fotis E. Psomopoulos and Saskia Hiltemann and He
 title = "Variant Calling Workflow (Galaxy Training Materials)",
 year = "2022",
 month = "07",
-day = "06"
+day = "07"
 url = "\url{https://training.galaxyproject.org/training-material/topics/data-science/tutorials/bash-variant-calling/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
