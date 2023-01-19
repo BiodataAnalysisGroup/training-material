@@ -64,6 +64,7 @@
       "twitter": "natefoo",
       "email": "nate@bx.psu.edu",
       "joined": "2017-12",
+      "orcid": "0000-0001-8083-2963",
       "id": "natefoo",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
     },
@@ -72,6 +73,8 @@
       "email": "simon.gladman@unimelb.edu.au",
       "joined": "2017-09",
       "elixir_node": "au",
+      "orcid": "0000-0002-6100-4385",
+      "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
       "id": "slugger70",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
     },
@@ -97,76 +100,6 @@
   ],
   "gitter": "galaxyproject/admins",
   "materials": [
-    {
-      "layout": "introduction_slides",
-      "logo": "GTN",
-      "title": "Galaxy from an administrator's point of view",
-      "type": "introduction",
-      "zenodo_link": "",
-      "questions": [
-        "What options to deploy Galaxy do I have?",
-        "Which platforms are supported by Galaxy?",
-        "What requirements does Galaxy have?"
-      ],
-      "objectives": [
-        "Learn about different options about Galaxy deployment.",
-        "Make an educated decision about your preferred deployment model."
-      ],
-      "time_estimation": "20m",
-      "key_points": [
-        "Galaxy is scalable from personal computers to huge HPC and cloud-instances.",
-        "Amount of expected users, types of common tasks, and storage capabilities have a big impact on the deployment."
-      ],
-      "contributors": [
-        {
-          "name": "Valentin Marcon",
-          "joined": "2017-09",
-          "id": "valentinmarcon",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/valentinmarcon.json"
-        },
-        {
-          "name": "Nate Coraor",
-          "gitter": "natefoo",
-          "twitter": "natefoo",
-          "email": "nate@bx.psu.edu",
-          "joined": "2017-12",
-          "id": "natefoo",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
-        },
-        {
-          "name": "Björn Grüning",
-          "email": "bjoern.gruening@gmail.com",
-          "twitter": "bjoerngruening",
-          "gitter": "bgruening",
-          "orcid": "0000-0002-3079-6586",
-          "linkedin": "bgruening",
-          "joined": "2017-09",
-          "elixir_node": "de",
-          "id": "bgruening",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
-        },
-        {
-          "name": "Helena Rasche",
-          "email": "helena.rasche@gmail.com",
-          "orcid": "0000-0001-9760-8992",
-          "maintainer_contact": "gitter",
-          "gitter": "hexylena",
-          "joined": "2017-09",
-          "elixir_node": "nl",
-          "id": "hexylena",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
-        }
-      ],
-      "subtopic": "core",
-      "last_modified_at": "2022-06-14T12:04:29+00:00",
-      "url": "/topics/admin/slides/introduction.html",
-      "topic_name": "admin",
-      "tutorial_name": "introduction",
-      "slides": true,
-      "urls": {
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/slides/introduction.json"
-      }
-    },
     {
       "layout": "tutorial_slides",
       "logo": "assets/images/gat.png",
@@ -203,7 +136,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json"
         }
       ],
-      "last_modified_at": "2021-04-06T11:50:17+00:00",
       "url": "/topics/admin/tutorials/advanced-galaxy-customisation/slides.html",
       "topic_name": "admin",
       "tutorial_name": "advanced-galaxy-customisation",
@@ -280,7 +212,6 @@
       "tags": [
         "ansible"
       ],
-      "last_modified_at": "2022-05-31T15:57:31+00:00",
       "url": "/topics/admin/tutorials/ansible/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "ansible",
@@ -354,7 +285,9 @@
           ]
         }
       ],
-      "last_modified_at": "2022-03-01T12:21:58+00:00",
+      "abbreviations": {
+        "CI": "Continuous Integration"
+      },
       "url": "/topics/admin/tutorials/jenkins/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "jenkins",
@@ -411,6 +344,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -463,7 +397,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-07-06T09:45:43+00:00",
       "url": "/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "connect-to-compute-cluster",
@@ -501,6 +434,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -516,7 +450,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
         }
       ],
-      "last_modified_at": "2021-04-06T11:50:17+00:00",
       "url": "/topics/admin/tutorials/systemd-supervisor/slides.html",
       "topic_name": "admin",
       "tutorial_name": "systemd-supervisor",
@@ -603,7 +536,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-06-14T11:22:56+00:00",
       "url": "/topics/admin/tutorials/data-library/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "data-library",
@@ -668,7 +600,6 @@
         "cloud"
       ],
       "priority": 3,
-      "last_modified_at": "2022-03-01T12:21:58+00:00",
       "url": "/topics/admin/tutorials/terraform/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "terraform",
@@ -696,6 +627,176 @@
     },
     {
       "layout": "tutorial_hands_on",
+      "title": "Deploying Tailscale/Headscale for private mesh networking",
+      "zenodo_link": "",
+      "questions": [
+        "What is Tailscale?",
+        "When is it useful?",
+        "Is it right for me?"
+      ],
+      "objectives": [
+        "Setup a tailnet across a few nodes"
+      ],
+      "time_estimation": "60m",
+      "key_points": [
+        "Tailscale is a fantastic bit of software that Just Works™",
+        "We use headscale, an open source reimplementation of Tailscale's control server because it's easy to use in training",
+        "But if you can afford Tailscale, just use that.",
+        "There is a FOSS plan, go check it out!"
+      ],
+      "contributions": {
+        "authorship": [
+          "hexylena"
+        ],
+        "editing": [
+          "natefoo"
+        ]
+      },
+      "requirements": [
+        {
+          "type": "internal",
+          "topic_name": "admin",
+          "tutorials": [
+            "ansible"
+          ]
+        },
+        {
+          "type": "none",
+          "title": "Three or more VMs (they can be tiny, 1 CPU, <1GB RAM)"
+        }
+      ],
+      "subtopic": "cloud",
+      "tags": [
+        "wireguard",
+        "networking"
+      ],
+      "url": "/topics/admin/tutorials/wireguard-headscale/tutorial.html",
+      "topic_name": "admin",
+      "tutorial_name": "wireguard-headscale",
+      "hands_on": true,
+      "slides": false,
+      "tools": [
+
+      ],
+      "tours": false,
+      "video": false,
+      "translations": {
+        "tutorial": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": false
+      },
+      "type": "tutorial",
+      "contributors": [
+        {
+          "name": "Helena Rasche",
+          "email": "helena.rasche@gmail.com",
+          "orcid": "0000-0001-9760-8992",
+          "maintainer_contact": "gitter",
+          "gitter": "hexylena",
+          "joined": "2017-09",
+          "elixir_node": "nl",
+          "id": "hexylena",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+        },
+        {
+          "name": "Nate Coraor",
+          "gitter": "natefoo",
+          "twitter": "natefoo",
+          "email": "nate@bx.psu.edu",
+          "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
+          "id": "natefoo",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
+        }
+      ],
+      "urls": {
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/wireguard-headscale/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/wireguard-headscale/tutorial.json"
+      }
+    },
+    {
+      "layout": "tutorial_hands_on",
+      "title": "Deploying Wireguard for private mesh networking",
+      "zenodo_link": "",
+      "questions": [
+        "What is wireguard?",
+        "When is it useful?",
+        "Is it right for me?"
+      ],
+      "objectives": [
+        "Setup a wireguard mesh across a few nodes"
+      ],
+      "time_estimation": "60m",
+      "key_points": [
+        "Wireguard is incredibly easy to deploy, and very secure."
+      ],
+      "contributions": {
+        "authorship": [
+          "hexylena"
+        ]
+      },
+      "requirements": [
+        {
+          "type": "internal",
+          "topic_name": "admin",
+          "tutorials": [
+            "ansible"
+          ]
+        },
+        {
+          "type": "none",
+          "title": "Three or more VMs (they can be tiny, 1 CPU, <1GB RAM)"
+        }
+      ],
+      "subtopic": "cloud",
+      "tags": [
+        "wireguard",
+        "networking"
+      ],
+      "url": "/topics/admin/tutorials/wireguard/tutorial.html",
+      "topic_name": "admin",
+      "tutorial_name": "wireguard",
+      "hands_on": true,
+      "slides": false,
+      "tools": [
+
+      ],
+      "tours": false,
+      "video": false,
+      "translations": {
+        "tutorial": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": false
+      },
+      "type": "tutorial",
+      "contributors": [
+        {
+          "name": "Helena Rasche",
+          "email": "helena.rasche@gmail.com",
+          "orcid": "0000-0001-9760-8992",
+          "maintainer_contact": "gitter",
+          "gitter": "hexylena",
+          "joined": "2017-09",
+          "elixir_node": "nl",
+          "id": "hexylena",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+        }
+      ],
+      "urls": {
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/wireguard/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/wireguard/tutorial.json"
+      }
+    },
+    {
+      "layout": "tutorial_hands_on",
       "title": "Distributed Object Storage",
       "questions": [
         "How does Galaxy locate data?",
@@ -716,6 +817,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -734,6 +836,7 @@
           "name": "Gianmauro Cuccuru",
           "joined": "2019-03",
           "elixir_node": "de",
+          "orcid": "0000-0002-5335-545X",
           "id": "gmauro",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/gmauro.json"
         }
@@ -753,7 +856,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-06-14T12:04:29+00:00",
       "url": "/topics/admin/tutorials/object-store/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "object-store",
@@ -827,7 +929,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
         }
       ],
-      "last_modified_at": "2021-07-26T14:48:15+00:00",
       "url": "/topics/admin/tutorials/galaxy-docker/slides.html",
       "topic_name": "admin",
       "tutorial_name": "galaxy-docker",
@@ -884,7 +985,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
         }
       ],
-      "last_modified_at": "2021-04-06T11:50:17+00:00",
       "url": "/topics/admin/tutorials/empathy/slides.html",
       "topic_name": "admin",
       "tutorial_name": "empathy",
@@ -957,7 +1057,6 @@
         "data",
         "git-gat"
       ],
-      "last_modified_at": "2022-07-06T09:45:43+00:00",
       "url": "/topics/admin/tutorials/ftp/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "ftp",
@@ -1007,6 +1106,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -1046,7 +1146,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-06-14T10:49:27+00:00",
       "url": "/topics/admin/tutorials/external-auth/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "external-auth",
@@ -1101,6 +1200,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -1116,7 +1216,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
         }
       ],
-      "last_modified_at": "2022-06-14T10:31:33+00:00",
       "url": "/topics/admin/tutorials/database/slides.html",
       "topic_name": "admin",
       "tutorial_name": "database",
@@ -1139,6 +1238,63 @@
       "urls": {
         "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/database/slides.json",
         "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/database/slides.json"
+      }
+    },
+    {
+      "layout": "tutorial_slides",
+      "logo": "assets/images/gat.png",
+      "title": "Galaxy and Celery",
+      "contributions": {
+        "authorship": [
+          "mira-miracoli"
+        ],
+        "editing": [
+          "hexylena"
+        ]
+      },
+      "subtopic": "jobs",
+      "url": "/topics/admin/tutorials/celery/slides.html",
+      "topic_name": "admin",
+      "tutorial_name": "celery",
+      "hands_on": false,
+      "slides": true,
+      "tools": [
+
+      ],
+      "tours": false,
+      "video": false,
+      "translations": {
+        "tutorial": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": false
+      },
+      "type": "tutorial",
+      "contributors": [
+        {
+          "name": "Mira Kuntz",
+          "joined": "2022-07",
+          "id": "mira-miracoli",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mira-miracoli.json"
+        },
+        {
+          "name": "Helena Rasche",
+          "email": "helena.rasche@gmail.com",
+          "orcid": "0000-0001-9760-8992",
+          "maintainer_contact": "gitter",
+          "gitter": "hexylena",
+          "joined": "2017-09",
+          "elixir_node": "nl",
+          "id": "hexylena",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+        }
+      ],
+      "urls": {
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/celery/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/celery/slides.json"
       }
     },
     {
@@ -1186,7 +1342,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
         }
       ],
-      "last_modified_at": "2020-06-30T21:57:57+00:00",
       "url": "/topics/admin/tutorials/database-schema/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "database-schema",
@@ -1210,6 +1365,96 @@
       "urls": {
         "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/database-schema/tutorial.json",
         "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/database-schema/tutorial.json"
+      }
+    },
+    {
+      "layout": "introduction_slides",
+      "logo": "assets/images/gat.png",
+      "subtopic": "core",
+      "priority": 1,
+      "redirect_from": [
+        "/topics/admin/slides/introduction"
+      ],
+      "title": "Galaxy from an administrator's point of view",
+      "zenodo_link": "",
+      "questions": [
+        "What options to deploy Galaxy do I have?",
+        "Which platforms are supported by Galaxy?",
+        "What requirements does Galaxy have?"
+      ],
+      "objectives": [
+        "Learn about different options about Galaxy deployment.",
+        "Make an educated decision about your preferred deployment model."
+      ],
+      "time_estimation": "20m",
+      "key_points": [
+        "Galaxy is scalable from personal computers to huge HPC and cloud-instances.",
+        "Amount of expected users, types of common tasks, and storage capabilities have a big impact on the deployment."
+      ],
+      "contributors": [
+        {
+          "name": "Valentin Marcon",
+          "joined": "2017-09",
+          "id": "valentinmarcon",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/valentinmarcon.json"
+        },
+        {
+          "name": "Nate Coraor",
+          "gitter": "natefoo",
+          "twitter": "natefoo",
+          "email": "nate@bx.psu.edu",
+          "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
+          "id": "natefoo",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
+        },
+        {
+          "name": "Björn Grüning",
+          "email": "bjoern.gruening@gmail.com",
+          "twitter": "bjoerngruening",
+          "gitter": "bgruening",
+          "orcid": "0000-0002-3079-6586",
+          "linkedin": "bgruening",
+          "joined": "2017-09",
+          "elixir_node": "de",
+          "id": "bgruening",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+        },
+        {
+          "name": "Helena Rasche",
+          "email": "helena.rasche@gmail.com",
+          "orcid": "0000-0001-9760-8992",
+          "maintainer_contact": "gitter",
+          "gitter": "hexylena",
+          "joined": "2017-09",
+          "elixir_node": "nl",
+          "id": "hexylena",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+        }
+      ],
+      "url": "/topics/admin/tutorials/introduction/slides.html",
+      "topic_name": "admin",
+      "tutorial_name": "introduction",
+      "hands_on": false,
+      "slides": true,
+      "tools": [
+
+      ],
+      "tours": false,
+      "video": false,
+      "translations": {
+        "tutorial": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": false
+      },
+      "type": "tutorial",
+      "urls": {
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/introduction/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/introduction/slides.json"
       }
     },
     {
@@ -1258,6 +1503,7 @@
           "name": "John Davis",
           "email": "jdavcs@gmail.com",
           "joined": "2019-06",
+          "orcid": "0000-0002-1363-1245",
           "id": "jdavcs",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json"
         }
@@ -1276,7 +1522,6 @@
         }
       ],
       "priority": 2,
-      "last_modified_at": "2022-05-29T17:03:59+00:00",
       "url": "/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "k8s-deploying-galaxy",
@@ -1318,6 +1563,70 @@
         "Basic deployment with Ansible is surprisingly easy",
         "Complexity can grow over time as your organisation does, no need to start with playbooks like UseGalaxy.org"
       ],
+      "contributions": {
+        "authorship": [
+          "hexylena",
+          "natefoo",
+          "slugger70"
+        ],
+        "editing": [
+          "shiltemann",
+          "nsoranzo",
+          "gmauro",
+          "mvdbeek",
+          "martenson",
+          "jmchilton",
+          "davebx",
+          "nsoranzo",
+          "lecorguille",
+          "abretaud"
+        ],
+        "testing": [
+          "mira-miracoli"
+        ]
+      },
+      "tags": [
+        "ansible",
+        "deploying",
+        "git-gat"
+      ],
+      "subtopic": "core",
+      "requirements": [
+        {
+          "type": "internal",
+          "topic_name": "admin",
+          "tutorials": [
+            "ansible"
+          ]
+        },
+        {
+          "type": "none",
+          "title": "A VM with at least 2 vCPUs and 4 GB RAM, preferably running Ubuntu 18.04 - 20.04."
+        }
+      ],
+      "abbreviations": {
+        "DVCS": "Distributed Version Control System"
+      },
+      "url": "/topics/admin/tutorials/ansible-galaxy/tutorial.html",
+      "topic_name": "admin",
+      "tutorial_name": "ansible-galaxy",
+      "hands_on": true,
+      "slides": true,
+      "tools": [
+
+      ],
+      "tours": false,
+      "video": true,
+      "translations": {
+        "tutorial": [
+
+        ],
+        "slides": [
+
+        ],
+        "video": true
+      },
+      "type": "tutorial",
       "contributors": [
         {
           "name": "Helena Rasche",
@@ -1336,6 +1645,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -1344,6 +1654,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -1370,48 +1682,79 @@
           "elixir_node": "uk",
           "id": "nsoranzo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json"
-        }
-      ],
-      "tags": [
-        "ansible",
-        "deploying",
-        "git-gat"
-      ],
-      "subtopic": "core",
-      "requirements": [
-        {
-          "type": "internal",
-          "topic_name": "admin",
-          "tutorials": [
-            "ansible"
-          ]
         },
         {
-          "type": "none",
-          "title": "A VM with at least 2 vCPUs and 4 GB RAM, preferably running Ubuntu 18.04 - 20.04."
+          "name": "Gianmauro Cuccuru",
+          "joined": "2019-03",
+          "elixir_node": "de",
+          "orcid": "0000-0002-5335-545X",
+          "id": "gmauro",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/gmauro.json"
+        },
+        {
+          "name": "Marius van den Beek",
+          "joined": "2018-06",
+          "id": "mvdbeek",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json"
+        },
+        {
+          "name": "Martin Čech",
+          "email": "marten@bx.psu.edu",
+          "joined": "2017-09",
+          "id": "martenson",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json"
+        },
+        {
+          "name": "John Chilton",
+          "email": "jmchilton@gmail.com",
+          "joined": "2017-09",
+          "twitter": "jmchilton",
+          "gitter": "jmchilton",
+          "orcid": "0000-0002-6794-0756",
+          "id": "jmchilton",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jmchilton.json"
+        },
+        {
+          "name": "Dave B.",
+          "joined": "2021-06",
+          "id": "davebx",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/davebx.json"
+        },
+        {
+          "name": "Nicola Soranzo",
+          "gitter": "nsoranzo",
+          "orcid": "0000-0003-3627-5340",
+          "twitter": "NicolaSoranzo",
+          "joined": "2017-09",
+          "elixir_node": "uk",
+          "id": "nsoranzo",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nsoranzo.json"
+        },
+        {
+          "name": "Gildas Le Corguillé",
+          "joined": "2017-09",
+          "elixir_node": "fr",
+          "id": "lecorguille",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/lecorguille.json"
+        },
+        {
+          "name": "Anthony Bretaudeau",
+          "email": "anthony.bretaudeau@inra.fr",
+          "twitter": "abretau",
+          "gitter": "abretaud",
+          "orcid": "0000-0003-0914-2470",
+          "joined": "2017-09",
+          "elixir_node": "fr",
+          "id": "abretaud",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/abretaud.json"
+        },
+        {
+          "name": "Mira Kuntz",
+          "joined": "2022-07",
+          "id": "mira-miracoli",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mira-miracoli.json"
         }
       ],
-      "last_modified_at": "2022-07-07T11:58:55+00:00",
-      "url": "/topics/admin/tutorials/ansible-galaxy/tutorial.html",
-      "topic_name": "admin",
-      "tutorial_name": "ansible-galaxy",
-      "hands_on": true,
-      "slides": true,
-      "tools": [
-
-      ],
-      "tours": false,
-      "video": true,
-      "translations": {
-        "tutorial": [
-
-        ],
-        "slides": [
-
-        ],
-        "video": true
-      },
-      "type": "tutorial",
       "urls": {
         "hands_on": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/ansible-galaxy/tutorial.json",
         "slides": "https://training.galaxyproject.org/training-material/api/topics//admin/tutorials/ansible-galaxy/tutorial.json"
@@ -1444,6 +1787,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -1452,6 +1796,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -1495,7 +1841,6 @@
         }
       ],
       "subtopic": "features",
-      "last_modified_at": "2022-06-14T10:49:27+00:00",
       "url": "/topics/admin/tutorials/interactive-tools/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "interactive-tools",
@@ -1532,6 +1877,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -1552,6 +1898,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -1568,7 +1916,6 @@
         }
       ],
       "subtopic": "monitoring",
-      "last_modified_at": "2022-03-01T12:21:57+00:00",
       "url": "/topics/admin/tutorials/general-monitoring/slides.html",
       "topic_name": "admin",
       "tutorial_name": "general-monitoring",
@@ -1631,7 +1978,6 @@
         "ansible",
         "git-gat"
       ],
-      "last_modified_at": "2022-03-30T10:18:50+00:00",
       "url": "/topics/admin/tutorials/gxadmin/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "gxadmin",
@@ -1679,6 +2025,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -1699,6 +2046,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -1730,7 +2079,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-06-28T10:22:54+00:00",
       "url": "/topics/admin/tutorials/reports/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "reports",
@@ -1809,7 +2157,9 @@
           ]
         }
       ],
-      "last_modified_at": "2022-07-06T09:45:43+00:00",
+      "abbreviations": {
+        "TSDB": "Time Series Database"
+      },
       "url": "/topics/admin/tutorials/monitoring/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "monitoring",
@@ -1845,12 +2195,13 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         }
       ],
       "subtopic": "cloud",
-      "last_modified_at": "2022-03-01T12:21:57+00:00",
       "url": "/topics/admin/tutorials/cloudbursting/slides.html",
       "topic_name": "admin",
       "tutorial_name": "cloudbursting",
@@ -1929,7 +2280,6 @@
         "tools",
         "git-gat"
       ],
-      "last_modified_at": "2022-03-14T15:31:52+00:00",
       "url": "/topics/admin/tutorials/tool-management/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "tool-management",
@@ -1973,12 +2323,12 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         }
       ],
       "subtopic": "maintenance",
-      "last_modified_at": "2022-06-14T10:49:27+00:00",
       "url": "/topics/admin/tutorials/troubleshooting/slides.html",
       "topic_name": "admin",
       "tutorial_name": "troubleshooting",
@@ -2016,6 +2366,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -2042,7 +2393,6 @@
         }
       ],
       "subtopic": "maintenance",
-      "last_modified_at": "2022-03-01T12:21:57+00:00",
       "url": "/topics/admin/tutorials/production/slides.html",
       "topic_name": "admin",
       "tutorial_name": "production",
@@ -2113,7 +2463,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-07-04T14:16:37+00:00",
       "url": "/topics/admin/tutorials/stop-worrying-love-systemd/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "stop-worrying-love-systemd",
@@ -2152,6 +2501,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -2161,6 +2511,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         }
@@ -2219,6 +2570,7 @@
           "name": "John Davis",
           "email": "jdavcs@gmail.com",
           "joined": "2019-06",
+          "orcid": "0000-0002-1363-1245",
           "id": "jdavcs",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/jdavcs.json"
         }
@@ -2237,7 +2589,6 @@
         }
       ],
       "priority": 1,
-      "last_modified_at": "2022-05-29T17:03:59+00:00",
       "url": "/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "k8s-managing-galaxy",
@@ -2291,6 +2642,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -2335,7 +2687,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-06-28T10:22:54+00:00",
       "url": "/topics/admin/tutorials/job-destinations/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "job-destinations",
@@ -2413,7 +2764,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-07-06T09:45:43+00:00",
       "url": "/topics/admin/tutorials/tus/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "tus",
@@ -2458,6 +2808,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -2493,7 +2845,6 @@
         "ansible",
         "git-gat"
       ],
-      "last_modified_at": "2022-06-14T11:22:56+00:00",
       "url": "/topics/admin/tutorials/cvmfs/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "cvmfs",
@@ -2537,6 +2888,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -2553,7 +2906,6 @@
         }
       ],
       "subtopic": "data",
-      "last_modified_at": "2022-03-01T12:21:57+00:00",
       "url": "/topics/admin/tutorials/cvmfs-manual/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "cvmfs-manual",
@@ -2597,12 +2949,13 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         }
       ],
       "subtopic": "data",
-      "last_modified_at": "2022-03-01T12:21:57+00:00",
       "url": "/topics/admin/tutorials/reference-genomes/slides.html",
       "topic_name": "admin",
       "tutorial_name": "reference-genomes",
@@ -2656,6 +3009,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -2664,6 +3018,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -2688,6 +3044,7 @@
           "name": "Gianmauro Cuccuru",
           "joined": "2019-03",
           "elixir_node": "de",
+          "orcid": "0000-0002-5335-545X",
           "id": "gmauro",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/gmauro.json"
         }
@@ -2715,7 +3072,6 @@
           "type": "none"
         }
       ],
-      "last_modified_at": "2022-07-06T09:45:43+00:00",
       "url": "/topics/admin/tutorials/pulsar/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "pulsar",
@@ -2768,6 +3124,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -2788,6 +3145,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -2804,7 +3163,6 @@
         }
       ],
       "subtopic": "maintenance",
-      "last_modified_at": "2022-03-01T12:21:57+00:00",
       "url": "/topics/admin/tutorials/maintenance/slides.html",
       "topic_name": "admin",
       "tutorial_name": "maintenance",
@@ -2854,6 +3212,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -2874,6 +3233,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         },
@@ -2889,7 +3250,6 @@
           "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
         }
       ],
-      "last_modified_at": "2021-04-06T11:50:17+00:00",
       "url": "/topics/admin/tutorials/stuff/slides.html",
       "topic_name": "admin",
       "tutorial_name": "stuff",
@@ -2981,7 +3341,9 @@
           ]
         }
       ],
-      "last_modified_at": "2022-07-06T09:45:43+00:00",
+      "abbreviations": {
+        "TIaaS": "Training Infrastructure as a Service"
+      },
       "url": "/topics/admin/tutorials/tiaas/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "tiaas",
@@ -3033,6 +3395,8 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         }
@@ -3051,7 +3415,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-03-30T10:18:50+00:00",
       "url": "/topics/admin/tutorials/upgrading/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "upgrading",
@@ -3090,6 +3453,9 @@
       "contributors": [
         {
           "name": "Torfinn Nome",
+          "email": "torfinn.nome@gmail.com",
+          "twitter": "torfinnnome",
+          "orcid": "0000-0003-1659-132X",
           "joined": "2021-01",
           "elixir_node": "no",
           "id": "torfinnnome",
@@ -3136,7 +3502,6 @@
           ]
         }
       ],
-      "last_modified_at": "2022-07-06T09:45:43+00:00",
       "url": "/topics/admin/tutorials/singularity/tutorial.html",
       "topic_name": "admin",
       "tutorial_name": "singularity",
@@ -3187,6 +3552,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -3215,7 +3581,6 @@
         }
       ],
       "subtopic": "maintenance",
-      "last_modified_at": "2022-03-14T18:19:44+00:00",
       "url": "/topics/admin/tutorials/users-groups-quotas/slides.html",
       "topic_name": "admin",
       "tutorial_name": "users-groups-quotas",
@@ -3251,6 +3616,7 @@
           "twitter": "natefoo",
           "email": "nate@bx.psu.edu",
           "joined": "2017-12",
+          "orcid": "0000-0001-8083-2963",
           "id": "natefoo",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/natefoo.json"
         },
@@ -3259,12 +3625,13 @@
           "email": "simon.gladman@unimelb.edu.au",
           "joined": "2017-09",
           "elixir_node": "au",
+          "orcid": "0000-0002-6100-4385",
+          "in_memoriam": "<a href=\"https://www.biocommons.org.au/news/simon-gladman\">Simon Gladman, system administrator of UseGalaxy.org.au, passed away on November 26, 2022</a>\n\n<a href=\"https://galaxyproject.org/news/2022-11-28-simon-gladman/\">He was a fantastic teacher, tutorial author, system administrator, and warm and welcoming friend.</a> He contributed heavily to the Galaxy Training Network and especially the Galaxy Administration community over the years, we will miss him dearly. The GTN and GAT would not be what they are today, without him.\n\n“Have I told you about my watch?”",
           "id": "slugger70",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/slugger70.json"
         }
       ],
       "subtopic": "deprecated",
-      "last_modified_at": "2022-03-01T12:21:57+00:00",
       "url": "/topics/admin/tutorials/uwsgi/slides.html",
       "topic_name": "admin",
       "tutorial_name": "uwsgi",
