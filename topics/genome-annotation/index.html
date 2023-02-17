@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=2">
         <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/training-material/assets/css/academicons.css">
-        <link rel="stylesheet" href="/training-material/assets/css/syntax_highlighting.css">
         <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
         <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
         <link rel="canonical" href="https://training.galaxyproject.org/training-material/topics/genome-annotation/" />
@@ -30,15 +29,16 @@
         
         
         
-        
         <meta name="description" content="Genome annotation is a multi-level process that includes ..." />
         <meta property="og:site_name" content="Galaxy Training Network" />
         <meta property="og:title" content="Galaxy Training: Genome Annotation" />
         <meta property="og:description" content="Genome annotation is a multi-level process that includes ..." />
         <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png" />
 
+        
     </head>
     <body data-spy="scroll" data-target="#toc">
+        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
         <header>
     <nav class="navbar navbar-expand-md navbar-dark" aria-label="Site Navigation">
         <div class="container">
@@ -112,9 +112,11 @@
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
         
+        
         <a class="dropdown-item" href="/training-material/topics/genome-annotation/faqs/" title="Check our FAQs for the Genome Annotation topic">
            <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Topic FAQs
         </a>
+        
         
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
             <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
@@ -161,27 +163,14 @@
             </div>
 
             <div id="theme-selector" data-toggle="buttons">
-                <label data-value="default" class="btn btn-secondary">
-                    <input type="radio" name="options" id="default" autocomplete="off"> Default
-                </label>
-                <label data-value="night" class="btn btn-secondary">
-                    <input type="radio" name="options" id="night" autocomplete="off"> Night
-                </label>
-                <label data-value="midnight" class="btn btn-secondary">
-                    <input type="radio" name="options" id="midnight" autocomplete="off"> Midnight
-                </label>
-                <label data-value="rainbow" class="btn btn-secondary">
-                    <input type="radio" name="options" id="rainbow" autocomplete="off"> Rainbow
-                </label>
-                <label data-value="progress" class="btn btn-secondary">
-                    <input type="radio" name="options" id="progress" autocomplete="off">🏳️‍🌈
-                </label>
-                <label data-value="halloween" class="btn btn-secondary">
-                    <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
-                </label>
-                <label data-value="straya" class="btn btn-secondary">
-                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
-                </label>
+                    <button class="btn" data-theme="default">Default</button>
+                    <button class="btn" data-theme="night">Night</button>
+                    <button class="btn" data-theme="midnight">Midnight</button>
+                    <button class="btn" data-theme="rainbow">Rainbow</button>
+                    <button class="btn" data-theme="blm">✊🏿</button>
+                    <button class="btn" data-theme="progress" >🏳️‍🌈</button>
+                    <button class="btn" data-theme="halloween">🎃</button>
+                    <button class="btn" data-theme="straya">🇦🇺</button>
             </div>
 
         </div>
@@ -233,7 +222,6 @@
 
 
 
-
 <!-- Gitter -->
 
 
@@ -271,15 +259,17 @@ sequences, transposons and other mobile elements.
     </ul>
     
 
+    <h2 id="material">Material</h2>
     
-        <h2 id="material">Material</h2>
+    
+        <!-- subtopic = [intro, {subtopic => {"id"=>"intro", "title"=>"Introduction", "description"=>"Start here if you are new to genome annotation in Galaxy."}, materials => [ ... ]} ] -->
+
         
+        <h3 id="st-intro">Introduction</h3>
+        <p>Start here if you are new to genome annotation in Galaxy.</p>
         
-          
-            
-              <h3 id="st-introduction">Introduction</h3>
-              Start here if you are new to genome annotation in Galaxy. </br></br>
-              <table class="table table-responsive table-striped">
+
+        <table class="table table-responsive table-striped">
   <thead>
     <tr>
       <th>Lesson</th>
@@ -301,27 +291,8 @@ sequences, transposons and other mobile elements.
 
   
   
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
+        <!-- MAT: genome-annotation/introduction -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -333,9 +304,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -344,14 +315,13 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
-          </div>
-
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
             
+            
+            </div>
+
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     <span class="btn-group">
@@ -406,9 +376,9 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
 
-            
+              
 
 
 
@@ -424,26 +394,29 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 
-            
+                  
 
 
 
-            
               
 
+              
+                  
 
 
 
-            
+
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -501,81 +474,59 @@ sequences, transposons and other mobile elements.
  </td>
           <td> 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
  </td>
-            <td> 
+          <td> 
 
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
 
  </td>
           
          </tr>
-         
        
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
     
   </tbody>
 </table>
 
 
 
-            
-          
-            
-              <h3 id="st-prokaryotes">Prokaryotes</h3>
-              Annotation of prokaryotic genomes. </br></br>
-              <table class="table table-responsive table-striped">
+
+    
+        <!-- subtopic = [prokaryote, {subtopic => {"id"=>"prokaryote", "title"=>"Prokaryotes", "description"=>"Annotation of prokaryotic genomes."}, materials => [ ... ]} ] -->
+
+        
+        <h3 id="st-prokaryote">Prokaryotes</h3>
+        <p>Annotation of prokaryotic genomes.</p>
+        
+
+        <table class="table table-responsive table-striped">
   <thead>
     <tr>
       <th>Lesson</th>
@@ -597,21 +548,8 @@ sequences, transposons and other mobile elements.
 
   
   
-    
-
-    
-    
-    
-
-    
+        <!-- MAT: genome-annotation/annotation-with-prokka -->
       
-       
-    
-    
-
-    
-      
-        
 
         <tr>
           <td class="tutorial_title">
@@ -623,9 +561,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -634,18 +572,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="background-color: hsl(271, 80.0%, 85%); color: #333; border: 1px solid hsl(271, 80.0%, 45%)" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="--color-primary: #d6cfff; --color-darker: #bfb4ff; --color-dimmed: #cac1ff;" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     <span class="btn-group">
@@ -711,7 +648,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -751,7 +688,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -801,7 +738,9 @@ sequences, transposons and other mobile elements.
    </li>
    
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.1156405">
@@ -809,7 +748,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/workflows/" title="Workflows" alt="Genome annotation with Prokka workflows">
@@ -817,8 +756,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -934,8 +875,6 @@ sequences, transposons and other mobile elements.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
@@ -1023,12 +962,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -1135,9 +1073,59 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <li class="btn btn-default supporting_material">
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Latest recordings of this tutorial in the GTN Video Library">
+        <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
+    </a>
+    <ul class="dropdown-menu">
+        
+        
+
+        
+        
+        
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/annotation-with-prokka/tutorial" title="View GTN Video Library for this Tutorial">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Tutorial (February 2021)
+            </a>
+        </li>
+        
+        
+          
+          
+          
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/annotation-with-prokka/slides" title="View GTN Video Library for these Slides">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Lecture (February 2021)
+            </a>
+        </li>
+        
+        
+        
+    </ul>
+   </li>
+   
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.1156405">
@@ -1145,7 +1133,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/workflows/" title="Workflows" alt="Genome annotation with Prokka workflows">
@@ -1153,15 +1141,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/genome-annotation/tutorials/annotation-with-prokka/tours/" title="Galaxy interactive tour" >
-    <i class="fas fa-magic" aria-hidden="true"></i>
-</a>
+          
 
- </td>
           
-          
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -1277,8 +1260,6 @@ sequences, transposons and other mobile elements.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
             Metagenomics
         </a>
@@ -1368,14 +1349,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
+        <!-- MAT: genome-annotation/apollo -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -1387,9 +1364,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -1398,18 +1375,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="background-color: hsl(271, 80.0%, 85%); color: #333; border: 1px solid hsl(271, 80.0%, 45%)" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="--color-primary: #d6cfff; --color-darker: #bfb4ff; --color-dimmed: #cac1ff;" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     <span class="btn-group">
@@ -1475,7 +1451,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/apollo/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -1515,7 +1491,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -1565,7 +1541,9 @@ sequences, transposons and other mobile elements.
    </li>
    
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/3270822">
@@ -1573,7 +1551,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/apollo/workflows/" title="Workflows" alt="Refining Genome Annotations with Apollo (prokaryotes) workflows">
@@ -1581,8 +1559,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -1704,8 +1684,6 @@ sequences, transposons and other mobile elements.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -1743,12 +1721,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -1855,9 +1832,59 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <li class="btn btn-default supporting_material">
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Latest recordings of this tutorial in the GTN Video Library">
+        <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
+    </a>
+    <ul class="dropdown-menu">
+        
+        
+
+        
+        
+        
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/apollo/tutorial" title="View GTN Video Library for this Tutorial">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Tutorial (February 2021)
+            </a>
+        </li>
+        
+        
+          
+          
+          
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/apollo/slides" title="View GTN Video Library for these Slides">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Lecture (February 2021)
+            </a>
+        </li>
+        
+        
+        
+    </ul>
+   </li>
+   
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/3270822">
@@ -1865,7 +1892,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/apollo/workflows/" title="Workflows" alt="Refining Genome Annotations with Apollo (prokaryotes) workflows">
@@ -1873,11 +1900,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -1999,8 +2025,6 @@ sequences, transposons and other mobile elements.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -2040,34 +2064,13 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
+        <!-- MAT: genome-annotation/genome-annotation -->
       
-        
+    
+        <!-- MAT: genome-annotation/tnseq -->
+      
 
         <tr>
           <td class="tutorial_title">
@@ -2079,23 +2082,22 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
-          
+            <div class="extra">
             
-            <a href="/training-material/search?query=bacteria" class="label label-default tutorial_tag" id="bacteria" style="background-color: hsl(55, 80.0%, 85%); color: #333; border: 1px solid hsl(55, 80.0%, 45%)" title="Click to show all tutorials tagged bacteria">bacteria</a>
             
-            <a href="/training-material/search?query=tnseq" class="label label-default tutorial_tag" id="tnseq" style="background-color: hsl(19, 80.0%, 85%); color: #333; border: 1px solid hsl(19, 80.0%, 45%)" title="Click to show all tutorials tagged tnseq">tnseq</a>
+              
+              <a href="/training-material/search?query=bacteria" class="label label-default tutorial_tag" id="bacteria" style="--color-primary: #ffcc80; --color-darker: #f3b100; --color-dimmed: #ffbd32;" title="Click to show all tutorials tagged bacteria">bacteria</a>
+              
+              <a href="/training-material/search?query=tnseq" class="label label-default tutorial_tag" id="tnseq" style="--color-primary: #ffc7c1; --color-darker: #ffa599; --color-dimmed: #ffb7ae;" title="Click to show all tutorials tagged tnseq">tnseq</a>
+              
+              <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="--color-primary: #ffc6cb; --color-darker: #ffa4ad; --color-dimmed: #ffb5bc;" title="Click to show all tutorials tagged essential genes">essential genes</a>
+              
             
-            <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="background-color: hsl(6, 80.0%, 85%); color: #333; border: 1px solid hsl(6, 80.0%, 45%)" title="Click to show all tutorials tagged essential genes">essential genes</a>
-            
-          
-          </div>
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     <span class="btn-group">
@@ -2150,7 +2152,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/tnseq/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -2190,7 +2192,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -2206,7 +2208,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.2579335">
@@ -2214,7 +2218,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/tnseq/workflows/" title="Workflows" alt="Essential genes detection with Transposon insertion sequencing workflows">
@@ -2222,8 +2226,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -2310,8 +2316,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -2412,12 +2416,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -2513,9 +2516,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.2579335">
@@ -2523,7 +2542,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/tnseq/workflows/" title="Workflows" alt="Essential genes detection with Transposon insertion sequencing workflows">
@@ -2531,11 +2550,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -2622,8 +2640,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -2726,40 +2742,23 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
     
   </tbody>
 </table>
 
 
 
-            
-          
-            
-              <h3 id="st-eukaryotes">Eukaryotes</h3>
-              Annotation of eukaryotic genomes. </br></br>
-              <table class="table table-responsive table-striped">
+
+    
+        <!-- subtopic = [eukaryote, {subtopic => {"id"=>"eukaryote", "title"=>"Eukaryotes", "description"=>"Annotation of eukaryotic genomes."}, materials => [ ... ]} ] -->
+
+        
+        <h3 id="st-eukaryote">Eukaryotes</h3>
+        <p>Annotation of eukaryotic genomes.</p>
+        
+
+        <table class="table table-responsive table-striped">
   <thead>
     <tr>
       <th>Lesson</th>
@@ -2781,31 +2780,8 @@ sequences, transposons and other mobile elements.
 
   
   
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
+        <!-- MAT: genome-annotation/repeatmasker -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -2817,9 +2793,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -2828,18 +2804,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -2850,7 +2825,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/repeatmasker/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -2890,7 +2865,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -2930,7 +2905,9 @@ sequences, transposons and other mobile elements.
    </li>
    
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7085837">
@@ -2938,7 +2915,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/repeatmasker/workflows/" title="Workflows" alt="Masking repeats with RepeatMasker workflows">
@@ -2946,8 +2923,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -3038,8 +3017,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -3152,12 +3129,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -3209,9 +3185,49 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <li class="btn btn-default supporting_material">
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Latest recordings of this tutorial in the GTN Video Library">
+        <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
+    </a>
+    <ul class="dropdown-menu">
+        
+        
+
+        
+        
+        
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/repeatmasker/tutorial" title="View GTN Video Library for this Tutorial">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Tutorial (March 2022)
+            </a>
+        </li>
+        
+        
+        
+        
+    </ul>
+   </li>
+   
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7085837">
@@ -3219,7 +3235,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/repeatmasker/workflows/" title="Workflows" alt="Masking repeats with RepeatMasker workflows">
@@ -3227,11 +3243,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -3322,8 +3337,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -3438,18 +3451,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
-    
-    
-
-    
+        <!-- MAT: genome-annotation/funannotate -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -3461,9 +3466,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -3472,18 +3477,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -3494,7 +3498,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/funannotate/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -3534,7 +3538,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -3574,7 +3578,9 @@ sequences, transposons and other mobile elements.
    </li>
    
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/5726818">
@@ -3582,7 +3588,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/funannotate/workflows/" title="Workflows" alt="Genome annotation with Funannotate workflows">
@@ -3590,8 +3596,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -3717,8 +3725,6 @@ sequences, transposons and other mobile elements.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -3764,12 +3770,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -3821,9 +3826,49 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <li class="btn btn-default supporting_material">
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Latest recordings of this tutorial in the GTN Video Library">
+        <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
+    </a>
+    <ul class="dropdown-menu">
+        
+        
+
+        
+        
+        
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/funannotate/tutorial" title="View GTN Video Library for this Tutorial">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Tutorial (March 2022)
+            </a>
+        </li>
+        
+        
+        
+        
+    </ul>
+   </li>
+   
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/5726818">
@@ -3831,7 +3876,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/funannotate/workflows/" title="Workflows" alt="Genome annotation with Funannotate workflows">
@@ -3839,11 +3884,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -3969,8 +4013,6 @@ sequences, transposons and other mobile elements.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -4018,14 +4060,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
+        <!-- MAT: genome-annotation/annotation-with-maker-short -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -4037,9 +4075,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -4048,18 +4086,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -4070,7 +4107,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/annotation-with-maker-short/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -4110,7 +4147,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -4126,7 +4163,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.4406623">
@@ -4134,7 +4173,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/annotation-with-maker-short/workflows/" title="Workflows" alt="Genome annotation with Maker (short) workflows">
@@ -4142,8 +4181,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -4206,8 +4247,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -4296,12 +4335,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -4353,9 +4391,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.4406623">
@@ -4363,7 +4417,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/annotation-with-maker-short/workflows/" title="Workflows" alt="Genome annotation with Maker (short) workflows">
@@ -4371,11 +4425,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -4438,8 +4491,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -4530,18 +4581,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
-    
-    
-
-    
+        <!-- MAT: genome-annotation/annotation-with-maker -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -4553,9 +4596,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -4564,18 +4607,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -4586,7 +4628,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -4626,7 +4668,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -4642,7 +4684,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.4406623">
@@ -4650,7 +4694,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/annotation-with-maker/workflows/" title="Workflows" alt="Genome annotation with Maker workflows">
@@ -4658,8 +4702,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -4750,8 +4796,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -4856,12 +4900,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -4913,9 +4956,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.4406623">
@@ -4923,7 +4982,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/annotation-with-maker/workflows/" title="Workflows" alt="Genome annotation with Maker workflows">
@@ -4931,11 +4990,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -5026,8 +5084,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -5134,14 +5190,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
+        <!-- MAT: genome-annotation/functional -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -5153,9 +5205,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -5164,18 +5216,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -5186,7 +5237,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/functional/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -5226,7 +5277,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -5242,7 +5293,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/6861851">
@@ -5250,7 +5303,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/functional/workflows/" title="Workflows" alt="Functional annotation of protein sequences workflows">
@@ -5258,8 +5311,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -5330,8 +5385,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -5432,12 +5485,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -5489,9 +5541,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/6861851">
@@ -5499,7 +5567,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/functional/workflows/" title="Workflows" alt="Functional annotation of protein sequences workflows">
@@ -5507,11 +5575,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -5582,8 +5649,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -5686,14 +5751,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
+        <!-- MAT: genome-annotation/apollo-euk -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -5705,9 +5766,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -5716,20 +5777,19 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
             
-            <a href="/training-material/search?query=cyoa" class="label label-default tutorial_tag" id="cyoa" style="background-color: hsl(322, 80.0%, 85%); color: #333; border: 1px solid hsl(322, 80.0%, 45%)" title="Click to show all tutorials tagged cyoa">cyoa</a>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+              <a href="/training-material/search?query=cyoa" class="label label-default tutorial_tag" id="cyoa" style="--color-primary: #ffc2ee; --color-darker: #ff9ce6; --color-dimmed: #ffafea;" title="Click to show all tutorials tagged cyoa">cyoa</a>
+              
             
-          
-          </div>
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -5740,7 +5800,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/apollo-euk/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -5780,7 +5840,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -5796,7 +5856,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/3270822">
@@ -5804,22 +5866,23 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
 
-            
               
 
+              
+                  
 
 
 
-            
+
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -5871,9 +5934,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/3270822">
@@ -5881,29 +5960,24 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
 
  </td>
           
          </tr>
-         
        
     
-    
-
-    
+        <!-- MAT: genome-annotation/lncrna -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -5915,9 +5989,9 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
+            <div class="extra">
             
+              
 
 
 
@@ -5926,18 +6000,17 @@ sequences, transposons and other mobile elements.
 </span>
 
 
-          
-          
             
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
             
-          
-          </div>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+            
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -5948,7 +6021,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/lncrna/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -5988,7 +6061,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -6004,7 +6077,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7107050">
@@ -6012,7 +6087,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/lncrna/workflows/" title="Workflows" alt="Long non-coding RNAs (lncRNAs) annotation with FEELnc workflows">
@@ -6020,8 +6095,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -6116,8 +6193,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -6218,12 +6293,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -6275,9 +6349,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7107050">
@@ -6285,7 +6375,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/lncrna/workflows/" title="Workflows" alt="Long non-coding RNAs (lncRNAs) annotation with FEELnc workflows">
@@ -6293,11 +6383,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -6392,8 +6481,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://humancellatlas.usegalaxy.eu/" title="Human Cell Atlas">
             Human Cell Atlas
         </a>
-        
-    
         
     
         
@@ -6496,14 +6583,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
+        <!-- MAT: genome-annotation/crispr-screen -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -6515,25 +6598,24 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
-          
+            <div class="extra">
             
-            <a href="/training-material/search?query=genome editing" class="label label-default tutorial_tag" id="genome editing" style="background-color: hsl(216, 80.0%, 85%); color: #333; border: 1px solid hsl(216, 80.0%, 45%)" title="Click to show all tutorials tagged genome editing">genome editing</a>
             
-            <a href="/training-material/search?query=CRISPR" class="label label-default tutorial_tag" id="CRISPR" style="background-color: hsl(201, 80.0%, 85%); color: #333; border: 1px solid hsl(201, 80.0%, 45%)" title="Click to show all tutorials tagged CRISPR">CRISPR</a>
+              
+              <a href="/training-material/search?query=genome editing" class="label label-default tutorial_tag" id="genome editing" style="--color-primary: #75e3ff; --color-darker: #00cfef; --color-dimmed: #00dbfe;" title="Click to show all tutorials tagged genome editing">genome editing</a>
+              
+              <a href="/training-material/search?query=CRISPR" class="label label-default tutorial_tag" id="CRISPR" style="--color-primary: #00ebf7; --color-darker: #00d1dc; --color-dimmed: #00deea;" title="Click to show all tutorials tagged CRISPR">CRISPR</a>
+              
+              <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="--color-primary: #ffc6cb; --color-darker: #ffa4ad; --color-dimmed: #ffb5bc;" title="Click to show all tutorials tagged essential genes">essential genes</a>
+              
+              <a href="/training-material/search?query=cell line" class="label label-default tutorial_tag" id="cell line" style="--color-primary: #00f476; --color-darker: #00d968; --color-dimmed: #00e76f;" title="Click to show all tutorials tagged cell line">cell line</a>
+              
             
-            <a href="/training-material/search?query=essential genes" class="label label-default tutorial_tag" id="essential genes" style="background-color: hsl(6, 80.0%, 85%); color: #333; border: 1px solid hsl(6, 80.0%, 45%)" title="Click to show all tutorials tagged essential genes">essential genes</a>
-            
-            <a href="/training-material/search?query=cell line" class="label label-default tutorial_tag" id="cell line" style="background-color: hsl(136, 80.0%, 85%); color: #333; border: 1px solid hsl(136, 80.0%, 45%)" title="Click to show all tutorials tagged cell line">cell line</a>
-            
-          
-          </div>
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     <span class="btn-group">
@@ -6599,7 +6681,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/crispr-screen/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -6639,7 +6721,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -6689,7 +6771,9 @@ sequences, transposons and other mobile elements.
    </li>
    
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/5750854">
@@ -6697,7 +6781,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/crispr-screen/workflows/" title="Workflows" alt="CRISPR screen analysis workflows">
@@ -6705,8 +6789,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -6828,8 +6914,6 @@ sequences, transposons and other mobile elements.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
             Street Science
         </a>
@@ -6875,12 +6959,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -6987,9 +7070,59 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <li class="btn btn-default supporting_material">
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Latest recordings of this tutorial in the GTN Video Library">
+        <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
+    </a>
+    <ul class="dropdown-menu">
+        
+        
+
+        
+        
+        
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/crispr-screen/tutorial" title="View GTN Video Library for this Tutorial">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Tutorial (March 2022)
+            </a>
+        </li>
+        
+        
+          
+          
+          
+
+        <li>
+            <a class="dropdown-item" href="https://gallantries.github.io/video-library/videos/genome-annotation/crispr-screen/slides" title="View GTN Video Library for these Slides">
+                <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span> Lecture (March 2022)
+            </a>
+        </li>
+        
+        
+        
+    </ul>
+   </li>
+   
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/5750854">
@@ -6997,7 +7130,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/crispr-screen/workflows/" title="Workflows" alt="CRISPR screen analysis workflows">
@@ -7005,11 +7138,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -7066,8 +7198,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://india.usegalaxy.eu/" title="Galaxy India">
             Galaxy India
         </a>
-        
-    
         
     
         
@@ -7180,7 +7310,6 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
   </tbody>
@@ -7188,27 +7317,16 @@ sequences, transposons and other mobile elements.
 
 
 
-            
-          
 
-          <!--  show the catch-all "other" subtopic if there are (enabled) tutorials not assigned to any subtoppic -->
-          
-          
-          
-          
-          
+    
+        <!-- subtopic = [__OTHER__, {subtopic => {"title"=>"Other", "description"=>"Assorted Tutorials", "id"=>"other"}, materials => [ ... ]} ] -->
 
-          
-          </br>
-          <div id="tutorial_list">
-          <h3> Other </h3>
-          <div class="search_box">
-            <i class="fas fa fa-search" aria-hidden="true"></i><span class="visually-hidden">search</span>
-            <input data-search-type="tutorial_title" class="search" id="tutorial_search" placeholder="Search" />
-            <span id="clear_search" title="Clear filters"> <i class="fas fa-times" aria-hidden="true"></i><span class="visually-hidden">galaxy-cross</span> </span>
-          </div></br>
-          Assorted tutorials </br></br>
-          <table class="table table-responsive table-striped">
+        
+        <h3 id="st-other">Other</h3>
+        <p>Assorted Tutorials</p>
+        
+
+        <table class="table table-responsive table-striped">
   <thead>
     <tr>
       <th>Lesson</th>
@@ -7230,11 +7348,8 @@ sequences, transposons and other mobile elements.
 
   
   
-    
-
-    
+        <!-- MAT: genome-annotation/hpc-for-lsgc -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -7246,15 +7361,14 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
-          
-          </div>
-
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+            <div class="extra">
             
+            
+            </div>
+
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     <span class="btn-group">
@@ -7309,7 +7423,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/hpc-for-lsgc/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -7349,7 +7463,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -7365,7 +7479,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.4485547">
@@ -7373,7 +7489,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/hpc-for-lsgc/workflows/" title="Workflows" alt="From small to large-scale genome comparison workflows">
@@ -7381,8 +7497,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -7453,8 +7571,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -7555,12 +7671,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -7656,9 +7771,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://doi.org/10.5281/zenodo.4485547">
@@ -7666,7 +7797,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/hpc-for-lsgc/workflows/" title="Workflows" alt="From small to large-scale genome comparison workflows">
@@ -7674,11 +7805,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -7749,8 +7879,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -7853,34 +7981,10 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
     
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
+        <!-- MAT: genome-annotation/gene-centric -->
       
-        
 
         <tr>
           <td class="tutorial_title">
@@ -7892,29 +7996,28 @@ sequences, transposons and other mobile elements.
             
 
 
-          <div class="">
-          
-          
+            <div class="extra">
             
-            <a href="/training-material/search?query=evolution" class="label label-default tutorial_tag" id="evolution" style="background-color: hsl(342, 80.0%, 85%); color: #333; border: 1px solid hsl(342, 80.0%, 45%)" title="Click to show all tutorials tagged evolution">evolution</a>
             
-            <a href="/training-material/search?query=annotation" class="label label-default tutorial_tag" id="annotation" style="background-color: hsl(120, 80.0%, 85%); color: #333; border: 1px solid hsl(120, 80.0%, 45%)" title="Click to show all tutorials tagged annotation">annotation</a>
+              
+              <a href="/training-material/search?query=evolution" class="label label-default tutorial_tag" id="evolution" style="--color-primary: #ffc4dd; --color-darker: #ffa0cb; --color-dimmed: #ffb3d4;" title="Click to show all tutorials tagged evolution">evolution</a>
+              
+              <a href="/training-material/search?query=annotation" class="label label-default tutorial_tag" id="annotation" style="--color-primary: #75f000; --color-darker: #67d500; --color-dimmed: #6ee300;" title="Click to show all tutorials tagged annotation">annotation</a>
+              
+              <a href="/training-material/search?query=vgp" class="label label-default tutorial_tag" id="vgp" style="--color-primary: #ffc2ee; --color-darker: #ff9ce6; --color-dimmed: #ffafea;" title="Click to show all tutorials tagged vgp">vgp</a>
+              
+              <a href="/training-material/search?query=cookbook" class="label label-default tutorial_tag" id="cookbook" style="--color-primary: #00f0ba; --color-darker: #00d6a5; --color-dimmed: #00e3b0;" title="Click to show all tutorials tagged cookbook">cookbook</a>
+              
+              <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="--color-primary: #55f300; --color-darker: #4ad800; --color-dimmed: #50e600;" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
+              
+              <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="--color-primary: #d6cfff; --color-darker: #bfb4ff; --color-dimmed: #cac1ff;" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
+              
             
-            <a href="/training-material/search?query=vgp" class="label label-default tutorial_tag" id="vgp" style="background-color: hsl(322, 80.0%, 85%); color: #333; border: 1px solid hsl(322, 80.0%, 45%)" title="Click to show all tutorials tagged vgp">vgp</a>
-            
-            <a href="/training-material/search?query=cookbook" class="label label-default tutorial_tag" id="cookbook" style="background-color: hsl(158, 80.0%, 85%); color: #333; border: 1px solid hsl(158, 80.0%, 45%)" title="Click to show all tutorials tagged cookbook">cookbook</a>
-            
-            <a href="/training-material/search?query=eukaryote" class="label label-default tutorial_tag" id="eukaryote" style="background-color: hsl(124, 80.0%, 85%); color: #333; border: 1px solid hsl(124, 80.0%, 45%)" title="Click to show all tutorials tagged eukaryote">eukaryote</a>
-            
-            <a href="/training-material/search?query=prokaryote" class="label label-default tutorial_tag" id="prokaryote" style="background-color: hsl(271, 80.0%, 85%); color: #333; border: 1px solid hsl(271, 80.0%, 45%)" title="Click to show all tutorials tagged prokaryote">prokaryote</a>
-            
-          
-          </div>
+            </div>
 
-          <div class="duplicate">
-          
-            <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
-            
+            <div class="duplicate">
+              <div class="btn-group" role="group" aria-label="Supporting materials for this resource">
+              
 
 
     </span>
@@ -7925,7 +8028,7 @@ sequences, transposons and other mobile elements.
 </span>
 </span>
 
-            
+              
     <span class="btn-group">
         <a href="/training-material/topics/genome-annotation/tutorials/gene-centric/tutorial.html" class="btn btn-default" title="Follow the tutorial">
             <i class="fas fa-laptop" aria-hidden="true"></i><span class="visually-hidden">tutorial</span>
@@ -7965,7 +8068,7 @@ sequences, transposons and other mobile elements.
     </span>
 
 
-            
+              
 
 
 
@@ -7981,7 +8084,9 @@ sequences, transposons and other mobile elements.
 
   
 
-            
+
+              
+                  
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7034885">
@@ -7989,7 +8094,7 @@ sequences, transposons and other mobile elements.
 </a>
 
 
-            
+                  
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/gene-centric/workflows/" title="Workflows" alt="Comparative gene analysis in unannotated genomes workflows">
@@ -7997,8 +8102,10 @@ sequences, transposons and other mobile elements.
     </a>
 
 
-            
               
+
+              
+                  
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -8073,8 +8180,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -8167,12 +8272,11 @@ sequences, transposons and other mobile elements.
 
 
 
-            
+              
+              </div>
             </div>
-          
-          </div>
-
           </td>
+
           <td> 
 
 
@@ -8224,9 +8328,25 @@ sequences, transposons and other mobile elements.
     </span>
 
  </td>
+          <td> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ </td>
 
           
-            <td> 
+          <td> 
 
 
 <a class="btn btn-default topic-icon" title="Zenodo datasets used in this tutorial" href="https://zenodo.org/record/7034885">
@@ -8234,7 +8354,7 @@ sequences, transposons and other mobile elements.
 </a>
 
  </td>
-            <td> 
+          <td> 
 
 
     <a class="btn btn-default topic-icon" href="/training-material/topics/genome-annotation/tutorials/gene-centric/workflows/" title="Workflows" alt="Comparative gene analysis in unannotated genomes workflows">
@@ -8242,11 +8362,10 @@ sequences, transposons and other mobile elements.
     </a>
 
  </td>
-            <td> 
- </td>
           
+
           
-            <td> 
+          <td> 
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
@@ -8321,8 +8440,6 @@ sequences, transposons and other mobile elements.
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -8417,50 +8534,16 @@ sequences, transposons and other mobile elements.
  </td>
           
          </tr>
-         
        
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
     
   </tbody>
 </table>
 
 
 
-          </div>
-          
 
-        
+    
+
 
     
         <h2 id="docker_image">Galaxy instances</h2>
@@ -8473,8 +8556,10 @@ sequences, transposons and other mobile elements.
         
     
 
+    
     <h2 id="topic-faq">Frequently Asked Questions</h2>
     Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
+    
 
     <h2 id="maintainers">Maintainers</h2>
     <p>This material is maintained by:</p>
@@ -8488,9 +8573,7 @@ sequences, transposons and other mobile elements.
     <h2 id="contributors">Contributors</h2>
     <p>This material was contributed to by:</p>
     
-    
-    
-    <a href="/training-material/hall-of-fame/estebanpw/" class="contributor-badge contributor-estebanpw"><img src="https://avatars.githubusercontent.com/estebanpw?s=27" alt="Avatar">Esteban Perez-Wohlfeil</a><a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge contributor-erxleben"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/erxleben?s=27" alt="Avatar">Anika Erxleben</a><a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge contributor-bgruening"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bgruening?s=27" alt="Avatar">Björn Grüning</a><a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge contributor-annasyme"><img src="https://avatars.githubusercontent.com/annasyme?s=27" alt="Avatar">Anna Syme</a><a href="/training-material/hall-of-fame/tseemann/" class="contributor-badge contributor-tseemann"><img src="https://avatars.githubusercontent.com/tseemann?s=27" alt="Avatar">Torsten Seemann</a><a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge contributor-slugger70"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/slugger70?s=27" alt="Avatar">Simon Gladman</a><a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge contributor-abretaud"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/abretaud?s=27" alt="Avatar">Anthony Bretaudeau</a><a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a><a href="/training-material/hall-of-fame/nathandunn/" class="contributor-badge contributor-nathandunn"><img src="https://avatars.githubusercontent.com/nathandunn?s=27" alt="Avatar">Nathan Dunn</a><a href="/training-material/hall-of-fame/mboudet/" class="contributor-badge contributor-mboudet"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/mboudet?s=27" alt="Avatar">Mateo Boudet</a><a href="/training-material/hall-of-fame/erasmusplus/" class="contributor-badge contributor-erasmusplus"><img src="https://avatars.githubusercontent.com/erasmusplus?s=27" alt="Avatar">Erasmus+ Programme</a><a href="/training-material/hall-of-fame/alexcorm/" class="contributor-badge contributor-alexcorm"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/alexcorm?s=27" alt="Avatar">Alexandre Cormier</a><a href="/training-material/hall-of-fame/lleroi/" class="contributor-badge contributor-lleroi"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/lleroi?s=27" alt="Avatar">Laura Leroi</a><a href="/training-material/hall-of-fame/r1corre/" class="contributor-badge contributor-r1corre"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/r1corre?s=27" alt="Avatar">Erwan Corre</a><a href="/training-material/hall-of-fame/stephanierobin/" class="contributor-badge contributor-stephanierobin"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/stephanierobin?s=27" alt="Avatar">Stéphanie Robin</a><a href="/training-material/hall-of-fame/jkreplak/" class="contributor-badge contributor-jkreplak"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/jkreplak?s=27" alt="Avatar">Jonathan Kreplak</a><a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge contributor-nekrut"><img src="https://avatars.githubusercontent.com/nekrut?s=27" alt="Avatar">Anton Nekrutenko</a><a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge contributor-delphine-l"><img src="https://avatars.githubusercontent.com/delphine-l?s=27" alt="Avatar">Delphine Lariviere</a><a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a><a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge contributor-mblue9"><img src="https://avatars.githubusercontent.com/mblue9?s=27" alt="Avatar">Maria Doyle</a><a href="/training-material/hall-of-fame/kenjifujihara/" class="contributor-badge contributor-kenjifujihara"><img src="https://avatars.githubusercontent.com/kenjifujihara?s=27" alt="Avatar">Kenji Fujihara</a><a href="/training-material/hall-of-fame/twishigulati/" class="contributor-badge contributor-twishigulati"><img src="https://avatars.githubusercontent.com/twishigulati?s=27" alt="Avatar">Twishi Gulati</a>
+    <a href="/training-material/hall-of-fame/mblue9/" class="contributor-badge contributor-mblue9"><img src="https://avatars.githubusercontent.com/mblue9?s=27" alt="Avatar">Maria Doyle</a><a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge contributor-hexylena"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/hexylena?s=27" alt="Avatar">Helena Rasche</a><a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge contributor-erxleben"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/erxleben?s=27" alt="Avatar">Anika Erxleben</a><a href="/training-material/hall-of-fame/stephanierobin/" class="contributor-badge contributor-stephanierobin"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/stephanierobin?s=27" alt="Avatar">Stéphanie Robin</a><a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge contributor-abretaud"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/abretaud?s=27" alt="Avatar">Anthony Bretaudeau</a><a href="/training-material/hall-of-fame/kenjifujihara/" class="contributor-badge contributor-kenjifujihara"><img src="https://avatars.githubusercontent.com/kenjifujihara?s=27" alt="Avatar">Kenji Fujihara</a><a href="/training-material/hall-of-fame/lleroi/" class="contributor-badge contributor-lleroi"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/lleroi?s=27" alt="Avatar">Laura Leroi</a><a href="/training-material/hall-of-fame/mboudet/" class="contributor-badge contributor-mboudet"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/mboudet?s=27" alt="Avatar">Mateo Boudet</a><a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge contributor-annasyme"><img src="https://avatars.githubusercontent.com/annasyme?s=27" alt="Avatar">Anna Syme</a><a href="/training-material/hall-of-fame/twishigulati/" class="contributor-badge contributor-twishigulati"><img src="https://avatars.githubusercontent.com/twishigulati?s=27" alt="Avatar">Twishi Gulati</a><a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a><a href="/training-material/hall-of-fame/estebanpw/" class="contributor-badge contributor-estebanpw"><img src="https://avatars.githubusercontent.com/estebanpw?s=27" alt="Avatar">Esteban Perez-Wohlfeil</a><a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge contributor-slugger70"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/slugger70?s=27" alt="Avatar">Simon Gladman</a><a href="/training-material/hall-of-fame/tseemann/" class="contributor-badge contributor-tseemann"><img src="https://avatars.githubusercontent.com/tseemann?s=27" alt="Avatar">Torsten Seemann</a><a href="/training-material/hall-of-fame/erasmusplus/" class="contributor-badge contributor-erasmusplus"><img src="https://avatars.githubusercontent.com/erasmusplus?s=27" alt="Avatar">Erasmus+ Programme</a><a href="/training-material/hall-of-fame/alexcorm/" class="contributor-badge contributor-alexcorm"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/alexcorm?s=27" alt="Avatar">Alexandre Cormier</a><a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge contributor-bgruening"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/bgruening?s=27" alt="Avatar">Björn Grüning</a><a href="/training-material/hall-of-fame/r1corre/" class="contributor-badge contributor-r1corre"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/r1corre?s=27" alt="Avatar">Erwan Corre</a><a href="/training-material/hall-of-fame/jkreplak/" class="contributor-badge contributor-jkreplak"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/jkreplak?s=27" alt="Avatar">Jonathan Kreplak</a><a href="/training-material/hall-of-fame/nathandunn/" class="contributor-badge contributor-nathandunn"><img src="https://avatars.githubusercontent.com/nathandunn?s=27" alt="Avatar">Nathan Dunn</a><a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge contributor-delphine-l"><img src="https://avatars.githubusercontent.com/delphine-l?s=27" alt="Avatar">Delphine Lariviere</a><a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge contributor-nekrut"><img src="https://avatars.githubusercontent.com/nekrut?s=27" alt="Avatar">Anton Nekrutenko</a>
 
     
 </section>
@@ -8508,7 +8591,7 @@ sequences, transposons and other mobile elements.
         The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
         </p>
 
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/eb8f771f3364bfef48927a5ca33470894c1adb8e">eb8f771f3364bfef48927a5ca33470894c1adb8e</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/a5ea31ce6371161a48f8e1c33c2f2f477d52f62b">a5ea31ce6371161a48f8e1c33c2f2f477d52f62b</a></p>
     </div>
 </footer>
 
@@ -8520,8 +8603,6 @@ sequences, transposons and other mobile elements.
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
         <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
-
         <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
         <script type="text/javascript">
         var snippets=document.querySelectorAll('div.highlight');
