@@ -78,11 +78,6 @@
   "slides": false,
   "workflows": [
     {
-      "workflow": "nanopore_preprocessing.ga",
-      "tests": false,
-      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/workflows/nanopore_preprocessing.ga"
-    },
-    {
       "workflow": "nanopore_gene_based_pathogenic_identification.ga",
       "tests": false,
       "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/workflows/nanopore_gene_based_pathogenic_identification.ga"
@@ -101,6 +96,11 @@
       "workflow": "nanopore_all_samples_phylogenetic_trees_and_heatmap.ga",
       "tests": false,
       "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/workflows/nanopore_all_samples_phylogenetic_trees_and_heatmap.ga"
+    },
+    {
+      "workflow": "nanopore_preprocessing.ga",
+      "tests": false,
+      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/pathogen-detection-from-nanopore-foodborne-data/workflows/nanopore_preprocessing.ga"
     }
   ],
   "tools": [
