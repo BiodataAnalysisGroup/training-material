@@ -58,82 +58,10 @@
                        
                        
                                
-                       
-                               
-                       
-                               
 			{
-				"id": "admin/tutorials/connect-to-compute-cluster/slides",
+				"id": "admin/tutorials/ansible-galaxy/slides",
 				"topic": "Galaxy Server administration",
-				"title": "Connecting Galaxy to a compute cluster"
-			},
-								
-                               
-                       
-                               
-                       
-                               
-			{
-				"id": "admin/tutorials/ansible/slides",
-				"topic": "Galaxy Server administration",
-				"title": "Ansible"
-			},
-								
-                               
-                       
-                               
-			{
-				"id": "admin/tutorials/production/slides",
-				"topic": "Galaxy Server administration",
-				"title": "Gearing towards production"
-			},
-								
-                               
-                       
-                               
-			{
-				"id": "admin/tutorials/users-groups-quotas/slides",
-				"topic": "Galaxy Server administration",
-				"title": "User, Role, Group and Quota managment"
-			},
-								
-                               
-                       
-                               
-			{
-				"id": "admin/tutorials/gxadmin/slides",
-				"topic": "Galaxy Server administration",
-				"title": "Galaxy Monitoring with gxadmin"
-			},
-								
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-			{
-				"id": "admin/tutorials/cvmfs/slides",
-				"topic": "Galaxy Server administration",
-				"title": "Reference Data with CVMFS"
-			},
-								
-                               
-                       
-                               
-			{
-				"id": "admin/tutorials/systemd-supervisor/slides",
-				"topic": "Galaxy Server administration",
-				"title": "Controlling Galaxy with systemd or Supervisor"
+				"title": "Galaxy Installation with Ansible"
 			},
 								
                                
@@ -153,18 +81,9 @@
                        
                                
 			{
-				"id": "admin/tutorials/monitoring/slides",
+				"id": "admin/tutorials/gxadmin/slides",
 				"topic": "Galaxy Server administration",
-				"title": "Galaxy Monitoring with Telegraf and Grafana"
-			},
-								
-                               
-                       
-                               
-			{
-				"id": "admin/tutorials/data-library/slides",
-				"topic": "Galaxy Server administration",
-				"title": "Data Libraries"
+				"title": "Galaxy Monitoring with gxadmin"
 			},
 								
                                
@@ -172,12 +91,10 @@
                                
                        
                                
-                       
-                               
 			{
-				"id": "admin/tutorials/maintenance/slides",
+				"id": "admin/tutorials/cvmfs/slides",
 				"topic": "Galaxy Server administration",
-				"title": "Server Maintenance and Backups"
+				"title": "Reference Data with CVMFS"
 			},
 								
                                
@@ -187,10 +104,12 @@
                                
                        
                                
+                       
+                               
 			{
-				"id": "admin/tutorials/ansible-galaxy/slides",
+				"id": "admin/tutorials/users-groups-quotas/slides",
 				"topic": "Galaxy Server administration",
-				"title": "Galaxy Installation with Ansible"
+				"title": "User, Role, Group and Quota managment"
 			},
 								
                                
@@ -211,6 +130,87 @@
                                
                        
                                
+			{
+				"id": "admin/tutorials/data-library/slides",
+				"topic": "Galaxy Server administration",
+				"title": "Data Libraries"
+			},
+								
+                               
+                       
+                               
+                       
+                               
+			{
+				"id": "admin/tutorials/monitoring/slides",
+				"topic": "Galaxy Server administration",
+				"title": "Galaxy Monitoring with Telegraf and Grafana"
+			},
+								
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+			{
+				"id": "admin/tutorials/maintenance/slides",
+				"topic": "Galaxy Server administration",
+				"title": "Server Maintenance and Backups"
+			},
+								
+                               
+                       
+                               
+			{
+				"id": "admin/tutorials/ansible/slides",
+				"topic": "Galaxy Server administration",
+				"title": "Ansible"
+			},
+								
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+			{
+				"id": "admin/tutorials/systemd-supervisor/slides",
+				"topic": "Galaxy Server administration",
+				"title": "Controlling Galaxy with systemd or Supervisor"
+			},
+								
+                               
+                       
+                               
+			{
+				"id": "admin/tutorials/connect-to-compute-cluster/slides",
+				"topic": "Galaxy Server administration",
+				"title": "Connecting Galaxy to a compute cluster"
+			},
+								
+                               
+                       
+                               
+			{
+				"id": "admin/tutorials/production/slides",
+				"topic": "Galaxy Server administration",
+				"title": "Gearing towards production"
+			},
+								
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
                        
                                
                        
@@ -285,6 +285,15 @@
 					
                        
                        
+                       
+                               
+			{
+				"id": "climate/tutorials/fates/slides",
+				"topic": "Climate",
+				"title": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)"
+			},
+								
+                               
                        
                                
                        
@@ -302,15 +311,6 @@
 				"id": "climate/tutorials/pangeo-notebook/slides",
 				"topic": "Climate",
 				"title": "Pangeo Notebook in Galaxy - Introduction to Xarray"
-			},
-								
-                               
-                       
-                               
-			{
-				"id": "climate/tutorials/fates/slides",
-				"topic": "Climate",
-				"title": "Functionally Assembled Terrestrial Ecosystem Simulator (FATES)"
 			},
 								
                                
@@ -357,8 +357,6 @@
                                
                        
                                
-                       
-                               
 			{
 				"id": "contributing/tutorials/create-new-tutorial-slides/slides",
 				"topic": "Contributing to the Galaxy Training Material",
@@ -399,30 +397,6 @@
                        
                                
                        
-               
-					
-                       
-                       
-                       
-               
-					
-                       
-                       
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
                                
                        
                
@@ -430,61 +404,10 @@
                        
                        
                        
-                               
+               
+					
                        
-                               
                        
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
                        
                                
                        
@@ -512,12 +435,92 @@
                                
                        
                                
-			{
-				"id": "dev/tutorials/bioblend-api/slides",
-				"topic": "Development in Galaxy",
-				"title": "Scripting Galaxy using the API and BioBlend"
-			},
-								
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+               
+					
+                       
+                       
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
                                
                        
                                
@@ -534,8 +537,36 @@
                                
                        
                                
+			{
+				"id": "dev/tutorials/bioblend-api/slides",
+				"topic": "Development in Galaxy",
+				"title": "Scripting Galaxy using the API and BioBlend"
+			},
+								
+                               
                        
                                
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+               
+					
+                       
+                       
                        
                                
                        
@@ -567,39 +598,6 @@
 					
                        
                        
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-               
-					
-                       
-                       
-                       
-                               
                        
                                
                        
@@ -614,6 +612,8 @@
 				"title": "ATAC-Seq data analysis"
 			},
 								
+                               
+                       
                                
                        
                                
@@ -704,14 +704,14 @@
                                
                        
                                
+                       
+                               
 			{
 				"id": "genome-annotation/tutorials/apollo/slides",
 				"topic": "Genome Annotation",
 				"title": "Refining Genome Annotations with Apollo (prokaryotes)"
 			},
 								
-                               
-                       
                                
                        
                                
@@ -1098,22 +1098,22 @@
                                
                        
                                
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
+                               
 			{
 				"id": "transcriptomics/tutorials/mirna-target-finder/slides",
 				"topic": "Transcriptomics",
 				"title": "Whole transcriptome analysis of Arabidopsis thaliana"
 			},
 								
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
-                               
-                       
                                
                        
                                
