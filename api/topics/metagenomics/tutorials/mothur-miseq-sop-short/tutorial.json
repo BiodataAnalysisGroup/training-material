@@ -118,9 +118,14 @@
   "slides": false,
   "workflows": [
     {
-      "workflow": "workflow1_quality_control.ga",
+      "workflow": "workflow4_mock_otu_clustering.ga",
       "tests": false,
-      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow1_quality_control.ga"
+      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow4_mock_otu_clustering.ga"
+    },
+    {
+      "workflow": "workflow7_beta_diversity.ga",
+      "tests": false,
+      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow7_beta_diversity.ga"
     },
     {
       "workflow": "workflow5_otu_clustering.ga",
@@ -138,19 +143,14 @@
       "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow6_alpha_diversity.ga"
     },
     {
-      "workflow": "workflow4_mock_otu_clustering.ga",
-      "tests": false,
-      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow4_mock_otu_clustering.ga"
-    },
-    {
-      "workflow": "workflow7_beta_diversity.ga",
-      "tests": false,
-      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow7_beta_diversity.ga"
-    },
-    {
       "workflow": "workflow2_data_cleaning.ga",
       "tests": false,
       "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow2_data_cleaning.ga"
+    },
+    {
+      "workflow": "workflow1_quality_control.ga",
+      "tests": false,
+      "url": "https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/workflows/workflow1_quality_control.ga"
     }
   ],
   "tools": [
